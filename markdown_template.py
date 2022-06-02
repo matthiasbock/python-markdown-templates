@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from IPython.display import display, Markdown
 from string import Template
 

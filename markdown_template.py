@@ -1,12 +1,15 @@
-#!/usr/bin/python3
 
-from IPython.display import display, Markdown
+# Use string library to parse values into template string/file
 from string import Template
+
+# Generate output suitable for Jupyter notebook
+from IPython.display import display, Markdown
+
 
 #
 # Opens a Markdown formatted file
 # and replaces all $variables with
-# values from itself
+# values from the object itself
 #
 class MarkdownTemplate():
     def __init__(self, filename):
